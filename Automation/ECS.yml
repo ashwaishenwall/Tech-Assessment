@@ -32,7 +32,7 @@ Parameters:
   ALIAS:
     Type: String
     Description: Alias for Route 53 Record Set
-    Default: jyoti
+    Default: test
 Resources:
   VPC:
     Type: AWS::EC2::VPC
