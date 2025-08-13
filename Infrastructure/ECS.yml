@@ -1,3 +1,4 @@
+
 AWSTemplateFormatVersion: '2010-09-09'
 Description:  This template deploys a VPC, with a pair of public and private subnets spread
   across two Availability Zones. It deploys an internet gateway, with a default
@@ -32,7 +33,7 @@ Parameters:
   ALIAS:
     Type: String
     Description: Alias for Route 53 Record Set
-    Default: jyoti
+    Default: test
 Resources:
   VPC:
     Type: AWS::EC2::VPC
